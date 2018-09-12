@@ -1,0 +1,14 @@
+adjacent(mordor, gondor).
+adjacent(gondor, rohan).
+adjacent(gondor, lorien).
+adjacent(gondor, cardolan).
+adjacent(rohan, lorien).
+adjacent(cardolan, rhudaur).
+adjacent(cardolan, arthedain).
+adjacent(arthedain, rhudaur).
+adjacent(arthedain, lindon).
+
+coastal(lindon).
+coastal(arthedain).
+coastal(cardolan).
+coastal(gondor).
